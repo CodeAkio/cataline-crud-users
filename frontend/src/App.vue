@@ -30,12 +30,7 @@
 <script lang="ts">
 import { defineComponent } from 'vue'
 import axios from '@/utils/axios'
-
-interface User {
-  id: string
-  email: string
-  name: string
-}
+import { User } from '@/models'
 
 export default defineComponent({
   data() {
